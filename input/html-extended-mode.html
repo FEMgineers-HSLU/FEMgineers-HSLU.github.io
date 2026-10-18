@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Markdown Demo Page</title>
+
+		<meta name="robots" content="noindex, nofollow" />
+
+		<link rel="stylesheet" href="/style/tailwind.css" />
+	</head>
+	<body>
+		<main>
+			<div class="prose prose-headings:font-bold prose-img:rounded-lg marker:text-current max-w-none p-4">
+				<h1>My first Markdown file</h1>
+				<h1>heading 1</h1>
+				<h2>heading 2</h2>
+				<h3>heading 3</h3>
+				<p>
+					<em>italic</em><br />
+					<strong>bold</strong><br />
+					<em><strong>italic and bold</strong></em
+					><br />
+					<s>strikethrough</s>
+				</p>
+				<ul>
+					<li>unordered list</li>
+					<li>
+						unordered list
+						<ul>
+							<li>unordered list</li>
+							<li>unordered list</li>
+						</ul>
+					</li>
+				</ul>
+				<ol>
+					<li>ordered list</li>
+					<li>
+						ordered list
+						<ol>
+							<li>ordered list</li>
+							<li>also possible</li>
+						</ol>
+					</li>
+				</ol>
+				<hr />
+				<p><a href="/project1" id="weiter-unten">internal link</a></p>
+				<p>
+					<a href="/project1" class="rounded-full px-4 py-2 border border-red-500 hover:bg-red-300 no-underline">internal link (button)</a>
+				</p>
+				<p><a href="https://www.markdownguide.org/cheat-sheet/">Markdown Cheatsheet</a></p>
+				<p>
+					only use this on private pages as spambots can read the e-mail-address too:
+					<a href="mailto:nobody@nodomain.com">nobody@nodomain.com</a>
+				</p>
+								<p>
+					<img
+						src="/img/hochhaus-hslu-informatik.jpg"
+						alt="alternative text (description of image if it is not displayed or cannot be seen by user)"
+						figcaption="only use images without copyright / sog. gemeinfreies (lizenzfreies) Bild"
+						class="max-w-3/4 max-h-[75svh]"
+					/>
+				</p>
+			</div>
+		</main>
+	</body>
+</html>

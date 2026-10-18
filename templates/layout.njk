@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth md:scroll-pt-20">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{ title }}</title>
+
+		{% if not shouldIndex %}
+		<meta name="robots" content="noindex, nofollow">
+		{% endif %}
+
+		{% if description %}
+		<meta name="description" content="{{ description }}">
+		{% endif %}
+
+		<link rel="stylesheet" href="{{ assets.tailwind }}">
+
+		{% if assets.style %}
+			<link rel="stylesheet" href="{{ assets.style }}">
+		{% endif %}
+	</head>
+	<body>
+		{% if header %}
+			{% include "header.html" ignore missing %}
+		{% endif %}
+
+		<main>
+			{{ content | safe }}
+		</main>
+
+		{% if footerEnabled and footerContent %}
+			<footer>
+				{{ footerContent | safe }}
+			</footer>
+		{% endif %}
+
+		{% if assets.main %}
+			<script type="module" src="{{ assets.main }}"></script>
+		{% endif %}
+	</body>
+</html>

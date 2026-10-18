@@ -1,0 +1,83 @@
+@import "tailwindcss" source("./");
+
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+
+.prose {
+	--tw-prose-body: currentColor;
+	--tw-prose-headings: currentColor;
+	--tw-prose-bold: currentColor;
+	--tw-prose-links: currentColor;
+	--tw-prose-code: currentColor;
+	--tw-prose-quotes: currentColor;
+	--tw-prose-captions: currentColor;
+	--tw-prose-counters: currentColor;
+	--tw-prose-bullets: currentColor;
+
+	--tw-prose-invert-body: currentColor;
+	--tw-prose-invert-headings: currentColor;
+	--tw-prose-invert-bold: currentColor;
+	--tw-prose-invert-links: currentColor;
+	--tw-prose-invert-code: currentColor;
+	--tw-prose-invert-quotes: currentColor;
+	--tw-prose-invert-captions: currentColor;
+	--tw-prose-invert-counters: currentColor;
+	--tw-prose-invert-bullets: currentColor;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+@theme {
+  --color-mycolor: hsl(180,50%,50%);
+}
+
+@layer base {
+
+	/*body {*/
+	/*  cursor: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="15" fill="blue"/></svg>') 16 16, auto;*/
+	/*}*/
+
+}
+
+@layer components {
+
+	.splide img {
+		@apply mx-auto rounded-lg;
+	}
+
+	.splide__slide {
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.overlay {
+		position: absolute;
+		inset: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		font-size: 1.5rem;
+		color: #fff;
+		padding: 1rem;
+		text-shadow: 2px 2px 1px rgb(0,0,0);
+	}
+
+	.youtube, .video {
+		@apply my-8;
+	}
+	.youtube iframe {
+		@apply rounded-lg max-w-3/4 max-h-[75svh] aspect-video w-full ;
+	}
+	.video video {
+		@apply rounded-lg max-w-3/4 max-h-[75svh] cursor-pointer shadow-[0_0_15px_rgb(0_0_0_/0.2)];
+	}
+	.caption {
+		@apply mt-2;
+	}
+}

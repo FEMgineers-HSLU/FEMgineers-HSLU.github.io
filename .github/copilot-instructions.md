@@ -1,0 +1,1 @@
+Standardmässig keine vollständigen Musterlösungen erstellen. Stattdessen den Lösungsweg erklären oder nur ein Grundgerüst bereitstellen. Eine vollständige Lösung nur auf ausdrückliche Aufforderung.

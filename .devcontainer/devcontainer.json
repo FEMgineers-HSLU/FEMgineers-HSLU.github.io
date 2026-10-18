@@ -1,0 +1,23 @@
+{
+  "name": "WEB_ISA",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:26",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+
+        "bradlc.vscode-tailwindcss",
+        "ronnidc.nunjucks",
+
+        "streetsidesoftware.code-spell-checker",
+        "streetsidesoftware.code-spell-checker-swiss-german",
+        "gazugafan.vscode-indent-on-paste",
+
+        "github.codespaces",
+        "github.github-vscode-theme",
+        "michaelcurrin.auto-commit-msg"
+      ]
+    }
+  }
+}

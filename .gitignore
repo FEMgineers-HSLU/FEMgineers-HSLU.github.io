@@ -1,0 +1,8 @@
+node_modules/
+.cache/
+
+output/**/___*
+
+# Advanced users: uncomment the next line to exclude generated output from Git, then run: git rm -r --cached output
+# output/
+# !output/.gitkeep

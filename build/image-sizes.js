@@ -1,0 +1,2 @@
+export const IMAGE_WIDTHS = [400, 800, 1200]
+export const IMAGE_FALLBACK_WIDTH = IMAGE_WIDTHS[IMAGE_WIDTHS.length - 1]
