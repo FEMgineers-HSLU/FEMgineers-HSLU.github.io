@@ -1,5 +1,5 @@
 ---
-title: "Website"
+title: "FEMgineers"
 shouldIndex: false
 header: true
 footer: true
@@ -19,7 +19,6 @@ footer: true
 
 by Sandra Lehmann
 
-[internal link](/README-ADVANCED-DE/){#weiter-unten}
 
 <br><br>
 ## Vorkentnisse
@@ -27,17 +26,21 @@ by Sandra Lehmann
 **C**: sehr gut
 **c#, Python**: mässig
 **HTML, CSS, JavaScript**: unbekannt
+**Github**: mässig
+**Codespace**: unbekannt
 <br><br>
-Webpage is published on femgineers-HSLU.github.io
-test
+The webpage is published on femgineers-hslu.github.io
 <br><br>
 ## Funktionsliste
 **MH** = Must have
 **NiH** = Nice to have
 
 <br><br>
+**MH** = Entwicklung der Webseite muss über FEMgineers account möglich sein
+
+<br><br>
 ### Struktur und Navigation
-- **MH** öffentlich zugänglich
+- **MH** Öffentlich zugänglich
 - **NiH** Eigene Domain (z. B. femgineers.ch)
 - **MH** Sprachumschalter EN / DE im Header
 - **MH** Alle Seiten und Texte in beiden Sprachen
@@ -51,6 +54,8 @@ test
 - **MH** Responsives Design: Die Seite passt sich Handy und Laptop an (mit Tailwind CSS)
 - **MH** Einheitliches Farbschema und Schrift passend zum Verein
 - **NiH** Bilderkarussell (automatisch wechselnde Bilder) auf der Startseite
+
+{.mb-8}
 
 <br><br>
 ### Inhalt
