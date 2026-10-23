@@ -1,5 +1,6 @@
 ---
 title: "FEMgineers"
+lang: de
 shouldIndex: false
 header: true
 footer: true

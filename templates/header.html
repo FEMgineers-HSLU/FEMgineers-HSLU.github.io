@@ -14,11 +14,24 @@
 
 				<div id="menu"
 					class="hidden w-full text-right pb-4 md:pb-0 md:block md:w-auto md:ml-auto">
-					<a href="#about" class="block md:inline-block px-6 py-4 text-[2rem]">About</a>
-					<a href="#events" class="block md:inline-block px-6 py-4 text-[2rem]">Events</a>
-					<a href="#gallery" class="block md:inline-block px-6 py-4 text-[2rem]">Gallery</a>
-					<a href="#resources" class="block md:inline-block px-6 py-4 text-[2rem]">Resources</a>
-					<a href="#contact" class="block md:inline-block px-6 py-4 text-[2rem]">Contact</a>
+					{% if lang == "en" %}
+						<a href="#about" class="block md:inline-block px-6 py-4 text-[2rem]">About</a>
+						<a href="#events" class="block md:inline-block px-6 py-4 text-[2rem]">Events</a>
+						<a href="#gallery" class="block md:inline-block px-6 py-4 text-[2rem]">Gallery</a>
+						<a href="#resources" class="block md:inline-block px-6 py-4 text-[2rem]">Resources</a>
+						<a href="#contact" class="block md:inline-block px-6 py-4 text-[2rem]">Contact</a>
+					{% else %}
+						<a href="#about" class="block md:inline-block px-6 py-4 text-[2rem]">Über uns</a>
+						<a href="#events" class="block md:inline-block px-6 py-4 text-[2rem]">Events</a>
+						<a href="#gallery" class="block md:inline-block px-6 py-4 text-[2rem]">Galerie</a>
+						<a href="#resources" class="block md:inline-block px-6 py-4 text-[2rem]">Ressourcen</a>
+						<a href="#contact" class="block md:inline-block px-6 py-4 text-[2rem]">Kontakt</a>
+					{% endif %}
+					<div class="inline-flex items-center gap-2 px-6 py-4 text-xl" role="group" aria-label="Language">
+						<a href="/" lang="de" {% if lang != "en" %}aria-current="page" class="font-bold underline"{% endif %}>DE</a>
+						<span aria-hidden="true">|</span>
+						<a href="/en/" lang="en" {% if lang == "en" %}aria-current="page" class="font-bold underline"{% endif %}>EN</a>
+					</div>
 				</div>
 
 			</div>
