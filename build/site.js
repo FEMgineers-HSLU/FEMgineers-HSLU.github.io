@@ -287,7 +287,7 @@ async function formatHtml(html, buildMode, filePath) {
 	}
 }
 
-function renderFooter() {
+function renderFooter(lang) {
 	const footerPath = path.join(
 		TEMPLATES,
 		"footer.md"
@@ -301,10 +301,12 @@ function renderFooter() {
 	)
 
 	const { content } = matter(raw)
-
-	return md.render(
-		stripMarkdownComments(content)
+	const rendered = env.renderString(
+		content,
+		{ lang }
 	)
+
+	return stripMarkdownComments(rendered).trim()
 }
 
 async function renderMarkdownFile(
@@ -332,7 +334,7 @@ async function renderMarkdownFile(
 
 	const footerEnabled = data.footer === true
 	const footerHtml = footerEnabled
-		? renderFooter()
+		? renderFooter(data.lang || "de")
 		: ""
 
 	const rendered = env.render(

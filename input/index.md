@@ -1,91 +1,165 @@
 ---
 title: "FEMgineers"
 lang: de
+description: "FEMgineers – der Verein für Studentinnen, die Technik gemeinsam entdecken und gestalten."
 shouldIndex: false
 header: true
 footer: true
 ---
 
+<section class="bg-[#fbe3d6] px-6 py-16 md:px-12 md:py-24">
+	<div class="mx-auto grid max-w-7xl items-center gap-10 md:grid-cols-2">
+		<div>
+			<p class="mb-3 font-semibold uppercase tracking-[0.2em]">FEMgineers HSLU</p>
+			<h1 class="mb-6 text-4xl font-bold leading-tight md:text-6xl">Technik entdecken. Zukunft gestalten.</h1>
+			<p class="mb-8 max-w-2xl text-lg md:text-xl">Wir bringen Studentinnen zusammen, die sich für Technik begeistern, voneinander lernen und gemeinsam neue Ideen verwirklichen möchten.</p>
+			<a href="#events" class="inline-flex rounded-full bg-[#582f1a] px-6 py-3 font-semibold text-white hover:bg-[#754a33]">Unsere Events entdecken</a>
+		<img src="/img/Logo.png" alt="FEMgineers-Logo" class="mx-auto max-h-64 w-full max-w-lg rounded-2xl bg-white p-8 object-contain shadow-lg">
+	</div>
+</section>
 
+<section class="px-6 py-14 md:px-12">
+	<div class="mx-auto max-w-5xl">
+		<div class="mb-8 flex flex-wrap items-end justify-between gap-4">
+			<div>
+				<p class="font-semibold uppercase tracking-[0.18em] text-[#9b6040]">Gemeinsam aktiv</p>
+				<h2 class="mt-2 text-3xl font-bold md:text-4xl">Einblicke bei FEMgineers</h2>
+			</div>
+			<p class="max-w-xl">Wir schaffen Raum für Austausch, praktische Erfahrungen und neue Perspektiven rund um Technik und Studium.</p>
+		</div>
+		<div class="splide" role="region" aria-label="Einblicke bei FEMgineers">
+			<div class="splide__track">
+				<ul class="splide__list">
+					<li class="splide__slide">
+						<div class="flex min-h-64 w-full flex-col items-center justify-center gap-4 rounded-2xl bg-white p-8 text-center shadow">
+							<img src="/img/Logo.png" alt="FEMgineers-Logo als Platzhalterbild" class="max-h-36 w-full max-w-xs object-contain">
+							<p class="font-semibold">Gemeinsam lernen und Ideen teilen</p>
+						</div>
+					</li>
+					<li class="splide__slide">
+						<div class="flex min-h-64 w-full flex-col items-center justify-center gap-4 rounded-2xl bg-white p-8 text-center shadow">
+							<img src="/img/Logo.png" alt="FEMgineers-Logo als Platzhalterbild" class="max-h-36 w-full max-w-xs object-contain">
+							<p class="font-semibold">Technik praktisch erleben</p>
+						</div>
+					</li>
+					<li class="splide__slide">
+						<div class="flex min-h-64 w-full flex-col items-center justify-center gap-4 rounded-2xl bg-white p-8 text-center shadow">
+							<img src="/img/Logo.png" alt="FEMgineers-Logo als Platzhalterbild" class="max-h-36 w-full max-w-xs object-contain">
+							<p class="font-semibold">Ein Netzwerk aufbauen</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
 
-:::::: text {  .prose .text-current .prose-headings:font-bold .prose-img:rounded-lg .marker:text-current .max-w-none .p-4 .pt-10 .text-[#582f1a] .prose-h1:my-4}
-# Vereinswebsite der FEMgineers
-::::::
+<section id="about" class="scroll-mt-24 bg-white px-6 py-16 md:px-12">
+	<div class="mx-auto max-w-7xl">
+		<div class="grid gap-10 md:grid-cols-2 md:items-center">
+			<div>
+				<p class="font-semibold uppercase tracking-[0.18em] text-[#9b6040]">Über uns</p>
+				<h2 class="mb-5 mt-2 text-3xl font-bold md:text-4xl">Technik ist für alle da.</h2>
+				<p class="mb-4 text-lg">FEMgineers ist ein Verein von Studentinnen an der Hochschule Luzern. Wir verbinden Menschen, die Technik nicht nur studieren, sondern aktiv mitgestalten wollen.</p>
+				<p>Unsere Mission ist es, eine offene Gemeinschaft zu schaffen, in der wir Wissen teilen, uns gegenseitig stärken und neue Wege in technischen Fachgebieten entdecken. Ob beim Austausch, bei Workshops oder gemeinsamen Projekten: Neugier und Zusammenarbeit stehen bei uns im Mittelpunkt.</p>
+			</div>
+			<article class="grid gap-6 rounded-2xl bg-[#fbe3d6] p-6 sm:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)] sm:items-center">
+				<img src="/img/Logo.png" alt="Platzhalter für ein Foto des FEMgineers-Vorstands" class="mx-auto max-h-48 w-full rounded-xl bg-white p-4 object-contain">
+				<div>
+					<h3 class="mb-2 text-2xl font-bold">Unser Vorstand</h3>
+					<p>Der Vorstand organisiert den Verein und setzt sich dafür ein, dass aus Ideen gemeinsame Aktivitäten werden. Das Logo dient hier als Platzhalter für ein Gruppenfoto.</p>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>
 
-:::::: text {  .prose .text-current .prose-headings:font-bold .prose-img:rounded-lg .marker:text-current .max-w-none .text-[#582f1a]}
-<3 We are the best association ever <3 { .bg-[#fbe3d6] }
-::::::
+<section id="events" class="scroll-mt-24 px-6 py-16 md:px-12">
+	<div class="mx-auto max-w-7xl">
+		<p class="font-semibold uppercase tracking-[0.18em] text-[#9b6040]">Kalender</p>
+		<h2 class="mb-3 mt-2 text-3xl font-bold md:text-4xl">Kommende Events</h2>
+		<p class="mb-8 max-w-3xl">Die folgenden Termine sind Musterevents und dienen als Vorschau auf mögliche Vereinsaktivitäten.</p>
+		<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+			<article class="flex flex-col rounded-2xl border border-[#e8c8b5] bg-white p-6 shadow-sm">
+				<p class="mb-3 font-semibold uppercase tracking-wide text-[#9b6040]">Musterveranstaltung · 18. November 2026</p>
+				<h3 class="mb-3 text-2xl font-bold">Willkommen bei FEMgineers</h3>
+				<p class="mb-4"><strong>Ort:</strong> Hochschule Luzern, Campus Horw</p>
+				<p class="mt-auto">Lerne den Verein kennen, triff andere Studentinnen und tausche dich bei einem gemütlichen Auftakt über Interessen und Ideen aus.</p>
+			</article>
+			<article class="flex flex-col rounded-2xl border border-[#e8c8b5] bg-white p-6 shadow-sm">
+				<p class="mb-3 font-semibold uppercase tracking-wide text-[#9b6040]">Musterveranstaltung · 2. Dezember 2026</p>
+				<h3 class="mb-3 text-2xl font-bold">Kreativ-Workshop: Technik zum Anfassen</h3>
+				<p class="mb-4"><strong>Ort:</strong> Hochschule Luzern, Campus Horw</p>
+				<p class="mt-auto">In kleinen Teams probieren wir einen einfachen technischen Prototyp aus und machen aus ersten Einfällen gemeinsam etwas Greifbares.</p>
+			</article>
+			<article class="flex flex-col rounded-2xl border border-[#e8c8b5] bg-white p-6 shadow-sm">
+				<p class="mb-3 font-semibold uppercase tracking-wide text-[#9b6040]">Musterveranstaltung · 15. Januar 2027</p>
+				<h3 class="mb-3 text-2xl font-bold">Austausch und Netzwerkabend</h3>
+				<p class="mb-4"><strong>Ort:</strong> Hochschule Luzern, Campus Horw</p>
+				<p class="mt-auto">Ein offener Abend für Fragen rund ums Studium, persönliche Erfahrungen und neue Kontakte in der technischen Community.</p>
+			</article>
+		</div>
+	</div>
+</section>
 
-:::::: text {  .prose .text-current .prose-headings:font-bold .prose-img:rounded-lg .marker:text-current .max-w-none .p-4 .text-[#582f1a] .prose-p:my-0 .prose-ul:my-1 .prose-li:my-0 .prose .prose-h1:my-4 .prose-h2:my-4 .prose-h3:my-4 }
+<section id="gallery" class="scroll-mt-24 bg-white px-6 py-16 md:px-12">
+	<div class="mx-auto max-w-7xl">
+		<p class="font-semibold uppercase tracking-[0.18em] text-[#9b6040]">Bilder</p>
+		<h2 class="mb-3 mt-2 text-3xl font-bold md:text-4xl">Galerie</h2>
+		<p class="mb-8">Die Bilder sind Platzhalter und werden später durch Fotos aus dem Vereinsleben ersetzt. Klicke ein Bild an, um es zu vergrössern.</p>
+		<div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+			<button type="button" class="gallery-trigger group rounded-2xl bg-[#fbe3d6] p-6 text-left focus:outline-2 focus:outline-offset-4 focus:outline-[#582f1a]" aria-label="Galeriebild vergrössern: Platzhalter für ein Eventfoto">
+				<img src="/img/Logo.png" alt="FEMgineers-Logo als Platzhalter für ein Eventfoto" class="h-56 w-full rounded-xl bg-white p-5 object-contain transition group-hover:scale-[1.02]">
+				<span class="mt-3 block font-semibold">Gemeinsame Events</span>
+			</button>
+			<button type="button" class="gallery-trigger group rounded-2xl bg-[#fbe3d6] p-6 text-left focus:outline-2 focus:outline-offset-4 focus:outline-[#582f1a]" aria-label="Galeriebild vergrössern: Platzhalter für einen Workshop">
+				<img src="/img/Logo.png" alt="FEMgineers-Logo als Platzhalter für einen Workshop" class="h-56 w-full rounded-xl bg-white p-5 object-contain transition group-hover:scale-[1.02]">
+				<span class="mt-3 block font-semibold">Workshops</span>
+			</button>
+			<button type="button" class="gallery-trigger group rounded-2xl bg-[#fbe3d6] p-6 text-left focus:outline-2 focus:outline-offset-4 focus:outline-[#582f1a]" aria-label="Galeriebild vergrössern: Platzhalter für ein Gruppenfoto">
+				<img src="/img/Logo.png" alt="FEMgineers-Logo als Platzhalter für ein Gruppenfoto" class="h-56 w-full rounded-xl bg-white p-5 object-contain transition group-hover:scale-[1.02]">
+				<span class="mt-3 block font-semibold">Gemeinschaft</span>
+			</button>
+		</div>
+	</div>
+</section>
 
-by Sandra Lehmann
+<dialog id="gallery-lightbox" aria-labelledby="gallery-lightbox-title" class="m-auto w-[min(92vw,56rem)] max-w-none rounded-2xl bg-white p-5 text-[#582f1a] shadow-2xl backdrop:bg-[#24150f]/80">
+	<div class="flex justify-end">
+		<button type="button" id="gallery-lightbox-close" class="rounded-full bg-[#582f1a] px-4 py-2 font-semibold text-white hover:bg-[#754a33]">Schliessen</button>
+	</div>
+	<h2 id="gallery-lightbox-title" class="sr-only">Galeriebild vergrössert</h2>
+	<img id="gallery-lightbox-image" src="/img/Logo.png" alt="" class="mx-auto max-h-[75vh] w-full object-contain">
+</dialog>
 
+<section id="resources" class="scroll-mt-24 px-6 py-16 md:px-12">
+	<div class="mx-auto max-w-7xl">
+		<p class="font-semibold uppercase tracking-[0.18em] text-[#9b6040]">Weiterlernen</p>
+		<h2 class="mb-3 mt-2 text-3xl font-bold md:text-4xl">Ressourcen</h2>
+		<p class="mb-6 max-w-3xl">Hier findest du Anlaufstellen rund um Technik, Studium und die Vernetzung von Frauen in MINT-Berufen.</p>
+		<ul class="grid gap-4 md:grid-cols-3">
+			<li class="rounded-2xl bg-white p-5 shadow-sm"><a class="font-semibold underline decoration-[#9b6040] underline-offset-4" href="https://www.hslu.ch/de-ch/technik-architektur/" target="_blank" rel="noopener noreferrer">Hochschule Luzern – Technik &amp; Architektur</a><p class="mt-2">Informationen zu Studium, Forschung und Angeboten am Departement.</p></li>
+			<li class="rounded-2xl bg-white p-5 shadow-sm"><a class="font-semibold underline decoration-[#9b6040] underline-offset-4" href="https://www.satw.ch/de/" target="_blank" rel="noopener noreferrer">Schweizerische Akademie der Technischen Wissenschaften</a><p class="mt-2">Einblicke und Initiativen zu Technik und Nachwuchsförderung in der Schweiz.</p></li>
+			<li class="rounded-2xl bg-white p-5 shadow-sm"><a class="font-semibold underline decoration-[#9b6040] underline-offset-4" href="https://wie.ieee.org/" target="_blank" rel="noopener noreferrer">IEEE Women in Engineering</a><p class="mt-2">Ein internationales Netzwerk für Frauen in Ingenieurwesen und Wissenschaft.</p></li>
+		</ul>
+	</div>
+</section>
 
-<br><br>
-## Vorkentnisse
-
-**C**: sehr gut
-**c#, Python**: mässig
-**HTML, CSS, JavaScript**: unbekannt
-**Github**: mässig
-**Codespace**: unbekannt
-<br><br>
-The webpage is published on femgineers-hslu.github.io
-<br><br>
-## Funktionsliste
-**MH** = Must have
-**NiH** = Nice to have
-
-<br><br>
-**MH** = Entwicklung der Webseite muss über FEMgineers account möglich sein
-
-<br><br>
-### Struktur und Navigation
-- **MH** Öffentlich zugänglich
-- **NiH** Eigene Domain (z. B. femgineers.ch)
-- **MH** Sprachumschalter EN / DE im Header
-- **MH** Alle Seiten und Texte in beiden Sprachen
-- **MH** Menü mit fünf Seiten: About, Events, Gallery, Resources, Contact
-- **MH** Header und Footer auf allen Seiten
-- **NiH** Hamburger-Menü auf dem Handy (eingeklapptes Menü hinter dem Symbol «☰»)
-- **NiH**  Pflege-Interface (Decap CMS): ausgewählte Mitglieder fügen Events und Fotos über ein Formular hinzu
-
-<br><br>
-### Darstellung
-- **MH** Responsives Design: Die Seite passt sich Handy und Laptop an (mit Tailwind CSS)
-- **MH** Einheitliches Farbschema und Schrift passend zum Verein
-- **NiH** Bilderkarussell (automatisch wechselnde Bilder) auf der Startseite
-
-{.mb-8}
-
-<br><br>
-### Inhalt
- - About { #about }
-   - **MH** Prosa text: Vereinsvorstellung, Mission,
-   - **MH** Vorstand mit Foto
-
- - Events  { #events }
-   - **MH** kommende Events als Karten (Titel, Datum, Ort, Beschreibung)
-   - **NiH** Anmeldelink
- 
- - past Events
-   - **NiH** vergangene Events als Karten (Titel, Datum, Ort, Beschreibung)
-   - **NiH** Automatische Archivierung der vergangenen Events
-   - **NiH** Täglicher automatischer Neuaufbau der Seite (GitHub Action), damit die Archivierung ohne Eingriff funktioniert
- 
- - Gallery  { #gallery }
-   - **MH** Bildraster
-   - **NiH** Lightbox (Bild öffnet sich beim Anklicken gross)
- 
- - Resources  { #resources }
-   - **NiH** Links zu hilfreichen Webseiten
-
- - Contact  { #contact }
-   - **MH** QR-Code für Instagram
-   - **MH** Angabe der Vereins-Email
-  oder
-   - **NiH** Kontaktformular
-
-
-
-::::::
+<section id="contact" class="scroll-mt-24 bg-[#fbe3d6] px-6 py-16 md:px-12">
+	<div class="mx-auto grid max-w-7xl gap-10 md:grid-cols-2 md:items-center">
+		<div>
+			<p class="font-semibold uppercase tracking-[0.18em] text-[#9b6040]">Kontakt</p>
+			<h2 class="mb-4 mt-2 text-3xl font-bold md:text-4xl">Lass uns in Verbindung bleiben.</h2>
+			<p class="mb-5 text-lg">Du möchtest FEMgineers kennenlernen oder hast eine Frage? Schreib uns – wir freuen uns auf deine Nachricht.</p>
+			<a class="text-lg font-semibold underline underline-offset-4" href="mailto:femgineers@hslu.ch">femgineers@hslu.ch</a>
+		</div>
+		<div class="flex flex-col items-center rounded-2xl bg-white p-6 text-center shadow-sm">
+			<a href="https://www.instagram.com/femgineers.luzern/" target="_blank" rel="noopener noreferrer" aria-label="FEMgineers auf Instagram öffnen">
+				<img src="/img/instagram-femgineers.svg" alt="QR-Code zum Instagram-Profil @femgineers.luzern" class="h-52 w-52">
+			</a>
+			<p class="mt-4 font-semibold">Folge uns auf Instagram</p>
+			<a class="mt-1 underline underline-offset-4" href="https://www.instagram.com/femgineers.luzern/" target="_blank" rel="noopener noreferrer">@femgineers.luzern</a>
+		</div>
+	</div>
+</section>
+</div>

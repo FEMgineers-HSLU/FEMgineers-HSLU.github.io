@@ -1,41 +1,35 @@
-<header class="md:sticky md:top-0 z-50">
-	<nav class="bg-[#fbe3d6] text-[#582f1a]">
-		<div class="w-full px-10">
-
-			<div class="flex flex-wrap items-center">
-
-				<a href="#" class="text-lg font-semibold tracking-wide h-32 flex items-center gap-2">
-					<img src="/img/Logo.png" alt="FEMgineers logo" class="h-30 w-70">
+<header class="sticky top-0 z-50">
+	<nav class="border-b border-[#e8c8b5] bg-[#fffaf7]/95 text-[#582f1a] shadow-sm backdrop-blur" aria-label="{% if lang == 'en' %}Main navigation{% else %}Hauptnavigation{% endif %}">
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+			<div class="flex min-h-16 items-center gap-4">
+				<a href="{% if lang == 'en' %}/en/{% else %}/{% endif %}" class="flex shrink-0 items-center" aria-label="{% if lang == 'en' %}FEMgineers home{% else %}FEMgineers Startseite{% endif %}">
+					<img src="/img/Logo.png" alt="FEMgineers" class="h-10 w-auto sm:h-12">
 				</a>
 
-				<button id="menu-btn" class="ml-auto md:hidden p-4 rounded-md text-[2rem]">
-					☰
+				<button id="menu-btn" type="button" class="ml-auto inline-flex h-11 w-11 items-center justify-center rounded-lg text-2xl hover:bg-[#fbe3d6] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#582f1a] md:hidden" aria-expanded="false" aria-controls="menu" data-label-open="{% if lang == 'en' %}Open navigation menu{% else %}Navigationsmenü öffnen{% endif %}" data-label-close="{% if lang == 'en' %}Close navigation menu{% else %}Navigationsmenü schliessen{% endif %}" aria-label="{% if lang == 'en' %}Open navigation menu{% else %}Navigationsmenü öffnen{% endif %}">
+					<span aria-hidden="true">☰</span>
 				</button>
 
-				<div id="menu"
-					class="hidden w-full text-right pb-4 md:pb-0 md:block md:w-auto md:ml-auto">
+				<div id="menu" class="hidden absolute left-0 right-0 top-16 z-50 border-b border-[#e8c8b5] bg-[#fffaf7] px-4 pb-4 shadow-md md:static md:ml-auto md:flex md:items-center md:gap-1 md:border-0 md:bg-transparent md:p-0 md:shadow-none">
 					{% if lang == "en" %}
-						<a href="#about" class="block md:inline-block px-6 py-4 text-[2rem]">About</a>
-						<a href="#events" class="block md:inline-block px-6 py-4 text-[2rem]">Events</a>
-						<a href="#gallery" class="block md:inline-block px-6 py-4 text-[2rem]">Gallery</a>
-						<a href="#resources" class="block md:inline-block px-6 py-4 text-[2rem]">Resources</a>
-						<a href="#contact" class="block md:inline-block px-6 py-4 text-[2rem]">Contact</a>
+						<a href="#about" class="block rounded-lg px-3 py-2 font-medium hover:bg-[#fbe3d6] focus-visible:outline-2 focus-visible:outline-[#582f1a] md:text-sm">About</a>
+						<a href="#events" class="block rounded-lg px-3 py-2 font-medium hover:bg-[#fbe3d6] focus-visible:outline-2 focus-visible:outline-[#582f1a] md:text-sm">Events</a>
+						<a href="#gallery" class="block rounded-lg px-3 py-2 font-medium hover:bg-[#fbe3d6] focus-visible:outline-2 focus-visible:outline-[#582f1a] md:text-sm">Gallery</a>
+						<a href="#resources" class="block rounded-lg px-3 py-2 font-medium hover:bg-[#fbe3d6] focus-visible:outline-2 focus-visible:outline-[#582f1a] md:text-sm">Resources</a>
+						<a href="#contact" class="block rounded-lg px-3 py-2 font-medium hover:bg-[#fbe3d6] focus-visible:outline-2 focus-visible:outline-[#582f1a] md:text-sm">Contact</a>
 					{% else %}
-						<a href="#about" class="block md:inline-block px-6 py-4 text-[2rem]">Über uns</a>
-						<a href="#events" class="block md:inline-block px-6 py-4 text-[2rem]">Events</a>
-						<a href="#gallery" class="block md:inline-block px-6 py-4 text-[2rem]">Galerie</a>
-						<a href="#resources" class="block md:inline-block px-6 py-4 text-[2rem]">Ressourcen</a>
-						<a href="#contact" class="block md:inline-block px-6 py-4 text-[2rem]">Kontakt</a>
+						<a href="#about" class="block rounded-lg px-3 py-2 font-medium hover:bg-[#fbe3d6] focus-visible:outline-2 focus-visible:outline-[#582f1a] md:text-sm">Über uns</a>
+						<a href="#events" class="block rounded-lg px-3 py-2 font-medium hover:bg-[#fbe3d6] focus-visible:outline-2 focus-visible:outline-[#582f1a] md:text-sm">Events</a>
+						<a href="#gallery" class="block rounded-lg px-3 py-2 font-medium hover:bg-[#fbe3d6] focus-visible:outline-2 focus-visible:outline-[#582f1a] md:text-sm">Galerie</a>
+						<a href="#resources" class="block rounded-lg px-3 py-2 font-medium hover:bg-[#fbe3d6] focus-visible:outline-2 focus-visible:outline-[#582f1a] md:text-sm">Ressourcen</a>
+						<a href="#contact" class="block rounded-lg px-3 py-2 font-medium hover:bg-[#fbe3d6] focus-visible:outline-2 focus-visible:outline-[#582f1a] md:text-sm">Kontakt</a>
 					{% endif %}
-					<div class="inline-flex items-center gap-2 px-6 py-4 text-xl" role="group" aria-label="Language">
-						<a href="/" lang="de" {% if lang != "en" %}aria-current="page" class="font-bold underline"{% endif %}>DE</a>
-						<span aria-hidden="true">|</span>
-						<a href="/en/" lang="en" {% if lang == "en" %}aria-current="page" class="font-bold underline"{% endif %}>EN</a>
+					<div class="mt-2 inline-flex items-center rounded-full border border-[#e8c8b5] p-1 text-sm md:ml-3 md:mt-0" role="group" aria-label="{% if lang == 'en' %}Language{% else %}Sprache{% endif %}">
+						<a href="/" lang="de" {% if lang != "en" %}aria-current="page"{% endif %} class="rounded-full px-3 py-1.5 {% if lang != 'en' %}bg-[#582f1a] font-semibold text-white{% else %}hover:bg-[#fbe3d6]{% endif %}">DE</a>
+						<a href="/en/" lang="en" {% if lang == "en" %}aria-current="page"{% endif %} class="rounded-full px-3 py-1.5 {% if lang == 'en' %}bg-[#582f1a] font-semibold text-white{% else %}hover:bg-[#fbe3d6]{% endif %}">EN</a>
 					</div>
 				</div>
-
 			</div>
-
 		</div>
 	</nav>
 </header>
