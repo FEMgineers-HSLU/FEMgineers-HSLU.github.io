@@ -8,14 +8,24 @@ function initSplide() {
 
 	if (splides.length) {
 		splides.forEach(el => {
+			const isCardCarousel = el.classList.contains("card-carousel")
+			const slideCount = el.querySelectorAll(".splide__slide").length
 			const splide = new Splide(el, {
-				type: "loop",
+				type: isCardCarousel ? "slide" : "loop",
 				keyboard: true,
-				gap: "2rem",
-				autoplay: true,
+				gap: isCardCarousel ? "1.5rem" : "2rem",
+				perPage: isCardCarousel ? Math.min(3, slideCount) : 1,
+				autoplay: !isCardCarousel,
 				interval: 5000,
 				pauseOnHover: true,
 				pauseOnFocus: true,
+				pagination: !isCardCarousel,
+				breakpoints: isCardCarousel
+					? {
+						900: { perPage: Math.min(2, slideCount) },
+						640: { perPage: 1 },
+					}
+					: {},
 				reducedMotion: {
 					autoplay: false,
 					speed: 0,

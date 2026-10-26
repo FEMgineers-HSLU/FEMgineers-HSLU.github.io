@@ -14,20 +14,8 @@ footer: true
 			<h1 class="mb-6 text-4xl font-bold leading-tight md:text-6xl">Technik entdecken. Zukunft gestalten.</h1>
 			<p class="mb-8 max-w-2xl text-lg md:text-xl">Wir bringen Studentinnen zusammen, die sich für Technik begeistern, voneinander lernen und gemeinsam neue Ideen verwirklichen möchten.</p>
 			<a href="#events" class="inline-flex rounded-full bg-[#582f1a] px-6 py-3 font-semibold text-white hover:bg-[#754a33]">Unsere Events entdecken</a>
-		<img src="/img/Logo.png" alt="FEMgineers-Logo" class="mx-auto max-h-64 w-full max-w-lg rounded-2xl bg-white p-8 object-contain shadow-lg">
-	</div>
-</section>
-
-<section class="px-6 py-14 md:px-12">
-	<div class="mx-auto max-w-5xl">
-		<div class="mb-8 flex flex-wrap items-end justify-between gap-4">
-			<div>
-				<p class="font-semibold uppercase tracking-[0.18em] text-[#9b6040]">Gemeinsam aktiv</p>
-				<h2 class="mt-2 text-3xl font-bold md:text-4xl">Einblicke bei FEMgineers</h2>
-			</div>
-			<p class="max-w-xl">Wir schaffen Raum für Austausch, praktische Erfahrungen und neue Perspektiven rund um Technik und Studium.</p>
 		</div>
-		<div class="splide" role="region" aria-label="Einblicke bei FEMgineers">
+		<div class="splide w-full" role="region" aria-label="Einblicke bei FEMgineers">
 			<div class="splide__track">
 				<ul class="splide__list">
 					<li class="splide__slide">
@@ -78,26 +66,79 @@ footer: true
 	<div class="mx-auto max-w-7xl">
 		<p class="font-semibold uppercase tracking-[0.18em] text-[#9b6040]">Kalender</p>
 		<h2 class="mb-3 mt-2 text-3xl font-bold md:text-4xl">Kommende Events</h2>
-		<p class="mb-8 max-w-3xl">Die folgenden Termine sind Musterevents und dienen als Vorschau auf mögliche Vereinsaktivitäten.</p>
-		<div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-			<article class="flex flex-col rounded-2xl border border-[#e8c8b5] bg-white p-6 shadow-sm">
-				<p class="mb-3 font-semibold uppercase tracking-wide text-[#9b6040]">Musterveranstaltung · 18. November 2026</p>
-				<h3 class="mb-3 text-2xl font-bold">Willkommen bei FEMgineers</h3>
-				<p class="mb-4"><strong>Ort:</strong> Hochschule Luzern, Campus Horw</p>
-				<p class="mt-auto">Lerne den Verein kennen, triff andere Studentinnen und tausche dich bei einem gemütlichen Auftakt über Interessen und Ideen aus.</p>
-			</article>
-			<article class="flex flex-col rounded-2xl border border-[#e8c8b5] bg-white p-6 shadow-sm">
-				<p class="mb-3 font-semibold uppercase tracking-wide text-[#9b6040]">Musterveranstaltung · 2. Dezember 2026</p>
-				<h3 class="mb-3 text-2xl font-bold">Kreativ-Workshop: Technik zum Anfassen</h3>
-				<p class="mb-4"><strong>Ort:</strong> Hochschule Luzern, Campus Horw</p>
-				<p class="mt-auto">In kleinen Teams probieren wir einen einfachen technischen Prototyp aus und machen aus ersten Einfällen gemeinsam etwas Greifbares.</p>
-			</article>
-			<article class="flex flex-col rounded-2xl border border-[#e8c8b5] bg-white p-6 shadow-sm">
-				<p class="mb-3 font-semibold uppercase tracking-wide text-[#9b6040]">Musterveranstaltung · 15. Januar 2027</p>
-				<h3 class="mb-3 text-2xl font-bold">Austausch und Netzwerkabend</h3>
-				<p class="mb-4"><strong>Ort:</strong> Hochschule Luzern, Campus Horw</p>
-				<p class="mt-auto">Ein offener Abend für Fragen rund ums Studium, persönliche Erfahrungen und neue Kontakte in der technischen Community.</p>
-			</article>
+		<p class="mb-8 max-w-3xl">Triff uns am 27. Oktober zum Workshop rund um den Berufseinstieg.</p>
+		<div class="splide card-carousel" role="region" aria-label="Kommende Events">
+			<div class="splide__track">
+				<ul class="splide__list">
+					<li class="splide__slide">
+						<article class="flex h-full w-full flex-col rounded-2xl border border-[#e8c8b5] bg-white p-6 shadow-sm">
+				<img src="/img/Flyer/Flyer27_10_2026.jpeg" alt="Flyer für den FEMgineers-Workshop Coaching für die Arbeitswelt am 27. Oktober" class="mb-5 h-72 w-full rounded-xl bg-[#fffaf7] object-contain p-2">
+				<p class="mb-3 font-semibold uppercase tracking-wide text-[#9b6040]">27. Oktober 2026 · 18:00 Uhr</p>
+				<h3 class="mb-3 text-2xl font-bold">Workshop: Coaching für die Arbeitswelt</h3>
+				<p class="mb-4"><strong>Ort:</strong> Elephant Bar</p>
+				<p class="mt-auto">Career Service und Alumni geben Einblicke und Impulse für den Einstieg in die Arbeitswelt.</p>
+						</article>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="past-events" class="scroll-mt-24 bg-[#fffaf7] px-6 py-16 md:px-12">
+	<div class="mx-auto max-w-7xl">
+		<p class="font-semibold uppercase tracking-[0.18em] text-[#9b6040]">Rückblick</p>
+		<h2 class="mb-3 mt-2 text-3xl font-bold md:text-4xl">Vergangene Events</h2>
+		<p class="mb-8 max-w-3xl">Ein Rückblick auf unsere Veranstaltungen und gemeinsamen Aktionen im Jahr 2026.</p>
+		<div class="splide card-carousel" role="region" aria-label="Vergangene Events">
+			<div class="splide__track">
+				<ul class="splide__list">
+					<li class="splide__slide">
+						<article class="flex h-full w-full flex-col rounded-2xl border border-[#e8c8b5] bg-white p-6 shadow-sm">
+				<img src="/img/Flyer/Flyer Kick Off HS26 - QR Code_page-0001.jpg" alt="Flyer für das FEMgineers Kick-off am 29. September 2026" class="mb-5 h-72 w-full rounded-xl bg-[#fffaf7] object-contain p-2">
+				<p class="mb-3 font-semibold uppercase tracking-wide text-[#9b6040]">29. September 2026 · 18:00 Uhr</p>
+				<h3 class="mb-3 text-2xl font-bold">Kick-off: Connect – Empower – Inspire</h3>
+				<p class="mb-4"><strong>Ort:</strong> Elephant Bar</p>
+				<p class="mt-auto">Gemeinsam ins neue Semester starten, die FEMgineers kennenlernen und bei Drinks, Snacks und Gesprächen vernetzen.</p>
+						</article>
+					</li>
+					<li class="splide__slide">
+						<article class="flex h-full w-full flex-col rounded-2xl border border-[#e8c8b5] bg-white p-6 shadow-sm">
+				<img src="/img/Flyer/Flyer_Selbstverteidigung.jpg" alt="Flyer für den Selbstverteidigungs-Workshop am 2. April 2026" class="mb-5 h-72 w-full rounded-xl bg-[#fffaf7] object-contain p-2">
+				<p class="mb-3 font-semibold uppercase tracking-wide text-[#9b6040]">2. April 2026 · 18:15 Uhr</p>
+				<h3 class="mb-3 text-2xl font-bold">Workshop: Selbstverteidigung für Frauen</h3>
+				<p class="mb-4"><strong>Ort:</strong> Karate Taisho, Luzernerstrasse 82, Kriens</p>
+				<p class="mt-auto">Ein Workshop, um Grundlagen der Selbstverteidigung kennenzulernen und zu üben.</p>
+						</article>
+					</li>
+					<li class="splide__slide">
+						<article class="flex h-full w-full flex-col rounded-2xl border border-[#e8c8b5] bg-white p-6 shadow-sm">
+				<img src="/img/Flyer/movie_night.png" alt="Flyer für die FEMgineers Movie Night am 1. April 2026" class="mb-5 h-72 w-full rounded-xl bg-[#fffaf7] object-contain p-2">
+				<p class="mb-3 font-semibold uppercase tracking-wide text-[#9b6040]">1. April 2026 · 18:00 Uhr</p>
+				<h3 class="mb-3 text-2xl font-bold">Movie Night</h3>
+				<p class="mb-4"><strong>Ort:</strong> Elephant Bar</p>
+				<p class="mt-auto">Ein gemeinsamer Filmabend für Frauen in entspannter Atmosphäre.</p>
+						</article>
+					</li>
+					<li class="splide__slide">
+						<article class="flex h-full w-full flex-col rounded-2xl border border-[#e8c8b5] bg-white p-6 shadow-sm">
+				<img src="/img/womans day_page-0001 (1).jpg" alt="FEMgineers-Gruss zum Internationalen Frauentag" class="mb-5 h-72 w-full rounded-xl bg-[#fffaf7] object-contain p-2">
+				<p class="mb-3 font-semibold uppercase tracking-wide text-[#9b6040]">8. März 2026</p>
+				<h3 class="mb-3 text-2xl font-bold">Internationaler Frauentag</h3>
+				<p class="mt-auto">Wir feiern die Leistungen, Visionen und Beiträge von Frauen in unserer Gesellschaft.</p>
+						</article>
+					</li>
+					<li class="splide__slide">
+						<article class="flex h-full w-full flex-col rounded-2xl border border-[#e8c8b5] bg-white p-6 shadow-sm">
+				<img src="/img/Flyer/Flyer fertig ohne QR code_page-0001.jpg" alt="Flyer für den Workshop zum Lernen im Einklang mit dem Zyklus am 4. März 2026" class="mb-5 h-72 w-full rounded-xl bg-[#fffaf7] object-contain p-2">
+				<p class="mb-3 font-semibold uppercase tracking-wide text-[#9b6040]">4. März 2026 · ab 17:30 Uhr</p>
+				<h3 class="mb-3 text-2xl font-bold">Workshop: Lernen im Einklang mit deinem Zyklus</h3>
+				<p class="mb-4"><strong>Ort:</strong> Raum C217, Trakt II</p>
+				<p class="mt-auto">Ein Workshop, um den eigenen Zyklus besser zu verstehen und die persönliche Energie fürs Lernen zu nutzen, mit anschliessendem Apéro.</p>
+						</article>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </section>
@@ -106,20 +147,30 @@ footer: true
 	<div class="mx-auto max-w-7xl">
 		<p class="font-semibold uppercase tracking-[0.18em] text-[#9b6040]">Bilder</p>
 		<h2 class="mb-3 mt-2 text-3xl font-bold md:text-4xl">Galerie</h2>
-		<p class="mb-8">Die Bilder sind Platzhalter und werden später durch Fotos aus dem Vereinsleben ersetzt. Klicke ein Bild an, um es zu vergrössern.</p>
-		<div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-			<button type="button" class="gallery-trigger group rounded-2xl bg-[#fbe3d6] p-6 text-left focus:outline-2 focus:outline-offset-4 focus:outline-[#582f1a]" aria-label="Galeriebild vergrössern: Platzhalter für ein Eventfoto">
-				<img src="/img/Logo.png" alt="FEMgineers-Logo als Platzhalter für ein Eventfoto" class="h-56 w-full rounded-xl bg-white p-5 object-contain transition group-hover:scale-[1.02]">
-				<span class="mt-3 block font-semibold">Gemeinsame Events</span>
-			</button>
-			<button type="button" class="gallery-trigger group rounded-2xl bg-[#fbe3d6] p-6 text-left focus:outline-2 focus:outline-offset-4 focus:outline-[#582f1a]" aria-label="Galeriebild vergrössern: Platzhalter für einen Workshop">
-				<img src="/img/Logo.png" alt="FEMgineers-Logo als Platzhalter für einen Workshop" class="h-56 w-full rounded-xl bg-white p-5 object-contain transition group-hover:scale-[1.02]">
-				<span class="mt-3 block font-semibold">Workshops</span>
-			</button>
-			<button type="button" class="gallery-trigger group rounded-2xl bg-[#fbe3d6] p-6 text-left focus:outline-2 focus:outline-offset-4 focus:outline-[#582f1a]" aria-label="Galeriebild vergrössern: Platzhalter für ein Gruppenfoto">
-				<img src="/img/Logo.png" alt="FEMgineers-Logo als Platzhalter für ein Gruppenfoto" class="h-56 w-full rounded-xl bg-white p-5 object-contain transition group-hover:scale-[1.02]">
-				<span class="mt-3 block font-semibold">Gemeinschaft</span>
-			</button>
+		<p class="mb-8">Einblicke in die FEMgineers und unsere Aktivitäten. Klicke ein Bild an, um es zu vergrössern.</p>
+		<div class="splide card-carousel" role="region" aria-label="Galerie">
+			<div class="splide__track">
+				<ul class="splide__list">
+					<li class="splide__slide">
+						<button type="button" class="gallery-trigger group h-full w-full rounded-2xl bg-[#fbe3d6] p-6 text-left focus:outline-2 focus:outline-offset-4 focus:outline-[#582f1a]" aria-label="Galeriebild vergrössern: FEMgineers-Flyer">
+				<img src="/img/Flyer/Flyer Allgemein Druckbereit-1.jpg" alt="FEMgineers-Flyer mit Informationen zu Community, Workshops und Events" class="h-56 w-full rounded-xl bg-white p-5 object-contain transition group-hover:scale-[1.02]">
+				<span class="mt-3 block font-semibold">Gemeinsam stark in Technik und Architektur</span>
+						</button>
+					</li>
+					<li class="splide__slide">
+						<button type="button" class="gallery-trigger group h-full w-full rounded-2xl bg-[#fbe3d6] p-6 text-left focus:outline-2 focus:outline-offset-4 focus:outline-[#582f1a]" aria-label="Galeriebild vergrössern: Kontaktflyer mit QR-Code">
+				<img src="/img/url_qrcodecreator.com_08_54_56.png" alt="FEMgineers-Kontaktflyer mit QR-Code und Instagram-Adresse" class="h-56 w-full rounded-xl bg-white p-5 object-contain transition group-hover:scale-[1.02]">
+				<span class="mt-3 block font-semibold">Social Media und Kontakt</span>
+						</button>
+					</li>
+					<li class="splide__slide">
+						<button type="button" class="gallery-trigger group h-full w-full rounded-2xl bg-[#fbe3d6] p-6 text-left focus:outline-2 focus:outline-offset-4 focus:outline-[#582f1a]" aria-label="Galeriebild vergrössern: FEMgineers-Workshopflyer für Coaching">
+				<img src="/img/Flyer/Flyer27_10_2026.jpeg" alt="Flyer für den Workshop Coaching für die Arbeitswelt" class="h-56 w-full rounded-xl bg-white p-5 object-contain transition group-hover:scale-[1.02]">
+				<span class="mt-3 block font-semibold">Coaching für die Arbeitswelt</span>
+						</button>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </section>
@@ -162,4 +213,3 @@ footer: true
 		</div>
 	</div>
 </section>
-</div>

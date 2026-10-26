@@ -66,7 +66,11 @@ function resolvePublicAsset(publicPath) {
 	}
 
 	const manifest = readManifest(folder)
-	const mapped = manifest[relPath]
+	const mapped = manifest[relPath] || (
+		folder === "img" && /\.jpeg$/i.test(relPath)
+			? manifest[relPath.replace(/\.jpeg$/i, ".jpg")]
+			: null
+	)
 
 	if (!mapped) return publicPath
 
